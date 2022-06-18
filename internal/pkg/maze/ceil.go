@@ -3,6 +3,8 @@ package maze
 type Ceil rune
 
 var (
+	Blank Ceil = ' ' //U+0020
+
 	Itype_Hrz_Sng Ceil = '─' //U+2500
 	Itype_Hrz_Dbl Ceil = '═' //U+2550
 	Itype_Vrt_Sng Ceil = '│' //U+2502
@@ -18,4 +20,8 @@ var (
 	Ttype_Hrz_Dbl_Dwn_Sng Ceil = '╤' //U+2564
 	Ttype_Vrt_Dbl_Rgh_Sng Ceil = '╟' //U+255F
 	Ttype_Vrt_Dbl_Lft_Sng Ceil = '╢' //U+2562
+
+	Pill Ceil = '●' //U+25CF
+	PowerPill Ceil = '○' //U+25CB
+	//Pill and PowerPill Alternatives: • ● ○ ☼
 )
